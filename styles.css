@@ -8,8 +8,11 @@
     --MediumGrey: hsl(216, 12%, 54%);
     --DarkBlue: hsl(213, 19%, 18%);
     --VeryDarkBlue: hsl(216, 12%, 8%)
-
 }
+
+.hidden {
+    display: none !important;
+  }
 
 #main-container {
     display: flex;
@@ -19,7 +22,7 @@
     margin: 200px;
 }
 
-.card {
+#rating-card {
     display: flex;
     background-color:  var(--DarkBlue);
     color: var(--White);
@@ -27,6 +30,19 @@
     width: 320px;
     padding: 3vh;
     gap: 0.8vh;
+   
+}
+
+#thankyou-card {
+    display: flex;
+    align-items: center;
+    background-color:  var(--DarkBlue);
+    color: var(--White);
+    border-radius: 10%;
+    width: 320px;
+    padding: 3vh;
+    gap: 0.5vh;
+    text-align: center;
 }
 
 #ratings-container {
