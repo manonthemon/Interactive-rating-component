@@ -16,16 +16,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 200px;;
+    margin: 200px;
 }
 
 .card {
     display: flex;
-    align-items: center;
     background-color:  var(--DarkBlue);
     color: var(--White);
     border-radius: 10%;
-    width: 340px;
+    width: 320px;
+    padding: 3vh;
+    gap: 0.8vh;
 }
 
 #ratings-container {
@@ -64,7 +65,7 @@ justify-content: center;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
-    width: 300px;
+    width: 260px;
 }
 
 .btn-primary:hover {
