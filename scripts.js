@@ -3,14 +3,14 @@ let thankyouCard = document.getElementById("thankyou-card");
 let submitButton = document.getElementById("submit");
 
 
-
-submitButton.addEventListener('click', function() {
+submitButton.addEventListener("click", function () {
+    console.log("submit clicked")
     submitClick()
-  });
+});
 
 
   function submitClick() {
-    ratingsCard.style.display = "none";
+    ratingCard.style.display = "none";
     thankyouCard.classList.remove("hidden");
     // questionText.textContent = quizQuestions[0].question;
     // questionsContainer.append(questionText);
