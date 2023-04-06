@@ -42,7 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - JavaScript
--jQuery
+- jQuery
 
 
 ### What I learned
