@@ -5,7 +5,6 @@ var btns = document.getElementsByClassName("btn-secondary");
 
 
 submitButton.addEventListener("click", function () {
-    console.log("submit clicked")
     submitClick()
 });
 
@@ -17,12 +16,11 @@ submitButton.addEventListener("click", function () {
 };
 
 
-// Add event listener to each button
+//Save value of rating button click to display on thank you card
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(event) {
-    var rating = event.target.id; // Get the ID of the clicked button
+    var rating = event.target.id; 
     $('#user-rating').append(rating);
-    console.log("Clicked rating:", rating); // Print the ID to the console (you can save it to a variable or use it as needed)
   });
 }
 
