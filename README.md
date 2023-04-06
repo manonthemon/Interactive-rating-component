@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/rating%20component%20screenshot.jpg)
+![](./images/rating-component.jpg)
 
 
 ### Links
